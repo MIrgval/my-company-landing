@@ -10,7 +10,7 @@ export const works: WorkCard[] = [
     id: 1,
     title: 'ЖК «Северный Парк»',
     description: 'Монолитные работы 25 000 м²',
-    img: '/assets/work1.jpg'
+    img: '/assets/p1.jpg'
   },
   {
     id: 2,

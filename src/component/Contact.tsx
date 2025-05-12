@@ -92,9 +92,9 @@ const Contact = () => {
 
           <div className="relative space-y-3">
             <p className="text-xs font-semibold uppercase tracking-widest text-gray-400">Адрес</p>
-            <p className="text-2xl font-semibold leading-snug">Москва, улица Трубная, 8</p>
+            <p className="text-2xl font-semibold leading-snug">Норильск, Ленинский проспект, 31к2</p>
             <a
-              href="https://maps.google.com/?q=Москва,+улица+Трубная,+8"
+              href="https://yandex.ru/maps/-/CHvEFZZZ"
               target="_blank"
               rel="noopener noreferrer"
               className="underline underline-offset-4"

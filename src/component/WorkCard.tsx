@@ -8,7 +8,7 @@ interface Props extends WorkCardType {
 const WorkCard = ({ title, description, img, active }: Props) => (
   <div
     className={clsx(
-      'relative mx-4 overflow-hidden rounded-2xl',
+      'relative mx-4 overflow-hidden rounded-23xl',
       active ? 'shadow-2xl' : 'shadow-lg'
     )}
   >
@@ -19,7 +19,7 @@ const WorkCard = ({ title, description, img, active }: Props) => (
       className="h-72 w-full object-cover sm:h-80 md:h-96"
     />
     {/* overlay */}
-    <div className="absolute inset-0 bg-black/50 opacity-0 transition hover:opacity-100">
+    <div className="absolute inset-0 bg-black/30 opacity-0 transition hover:opacity-100">
       <div className="flex h-full flex-col items-center justify-center text-center text-white">
         <h3 className="mb-2 text-xl font-semibold">{title}</h3>
         <p className="mx-4 max-w-xs text-sm">{description}</p>

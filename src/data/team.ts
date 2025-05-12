@@ -23,5 +23,17 @@ export const team: TeamMate[] = [
     name: 'Павел Козлов',
     role: 'Прораб',
     photo: '/assets/team3.jpg'
+  },
+  {
+    id: 4,
+    name: 'Павел Козлов',
+    role: 'Прораб',
+    photo: '/assets/team3.jpg'
+  },
+  {
+    id: 5,
+    name: 'Павел Козлов',
+    role: 'Прораб',
+    photo: '/assets/team3.jpg'
   }
 ];

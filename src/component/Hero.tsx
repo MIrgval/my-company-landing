@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 const Hero = () => (
   <section className="grid min-h-screen grid-cols-1 sm:grid-cols-2">
     {/* левый столбец (картинка, белый фон) */}
-    <div className="order-1 flex items-center justify-center bg-white sm:order-1">
+    <div className="order-1 flex items-center justify-center bg-[#f6f4f0] sm:order-1">
       <motion.img
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
