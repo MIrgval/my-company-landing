@@ -25,7 +25,7 @@ const Header = () => {
         <img src="./assets/logo.svg" alt="Логотип MyCompany" className="h-14 w-auto" />
 
         {/* десктоп‑меню */}
-        <nav className="hidden gap-8 sm:flex ml-[105rem]">
+        <nav className="hidden gap-8 sm:flex ml-[100rem]">
           {navItems.map(({ to, label }) => (
             <Link
               key={to}
