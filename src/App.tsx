@@ -12,7 +12,7 @@ const App = () => (
     <Works />
     <Team />
     <Contact />
-    <Footer />   {/* будет прижат к низу благодаря mt-auto в компоненте */}
+    <Footer />   
   </div>
 );
 
