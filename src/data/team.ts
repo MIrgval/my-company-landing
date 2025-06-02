@@ -10,7 +10,7 @@ export const team: TeamMate[] = [
     id: 1,
     name: 'Илья Смирнов',
     role: 'Генеральный директор',
-    photo: '/assets/team1.jpg'
+    photo: '/assets/fase.webp'
   },
   {
     id: 2,
@@ -22,18 +22,18 @@ export const team: TeamMate[] = [
     id: 3,
     name: 'Павел Козлов',
     role: 'Прораб',
-    photo: '/assets/team3.jpg'
+    photo: '/assets/fase.webp'
   },
   {
     id: 4,
     name: 'Павел Козлов',
     role: 'Прораб',
-    photo: '/assets/team3.jpg'
+    photo: '/assets/fase.webp'
   },
   {
     id: 5,
     name: 'Павел Козлов',
     role: 'Прораб',
-    photo: '/assets/team3.jpg'
+    photo: '/assets/fase.webp'
   }
 ];

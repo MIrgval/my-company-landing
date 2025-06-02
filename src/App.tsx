@@ -1,4 +1,3 @@
-import { Element } from 'react-scroll';
 import Header from './component/Header';
 import Hero from './component/Hero';
 import Works from './component/Works';
