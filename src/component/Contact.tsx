@@ -39,7 +39,7 @@ const Contact = () => {
     mode: 'onChange'
   });
 
-  const onSubmit = async (data: FormValues) => {
+  const onSubmit = async () => {
     try {
       await new Promise((r) => setTimeout(r, 800)); // mock‑delay
       toast.success('Сообщение отправлено!');
