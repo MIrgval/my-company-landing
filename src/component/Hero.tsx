@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 
 const Hero = () => (
-  <section className="grid min-h-screen grid-cols-1 sm:grid-cols-2">
+  <section className="grid min-h-screen grid-cols-1 sm:grid-cols-2" id="about">
     {/* левый столбец (картинка, белый фон) */}
     <div className="order-1 flex items-center justify-center bg-[#f6f4f0] sm:order-1">
       <motion.img

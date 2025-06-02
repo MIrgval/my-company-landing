@@ -41,12 +41,12 @@ const Footer = () => (
       <p className="text-xs text-gray-300">
         © Все права защищены |{' '}
         <a
-          href="https://matronet.ru"
+          href="https://www.google.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="underline"
         >
-          Работает на MatroNet
+          google
         </a>
       </p>
 

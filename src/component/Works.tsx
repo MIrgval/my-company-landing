@@ -32,7 +32,7 @@ const Works = () => {
   
 
   return (
-    <section className="container py-20 bg-[#f6f4f0]">
+    <section className="container py-20 bg-[#f6f4f0]" id="works">
       <h2 className="mb-10 text-center text-3xl font-bold ">Наши работы</h2>
 
       <div className="relative overflow-hidden " >

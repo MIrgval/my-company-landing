@@ -20,12 +20,12 @@ const Header = () => {
   } as const;
 
   return (
-    <header className="fixed z-50 w-full bg-white/80 backdrop-blur-sm shadow-sm padding-5rem">
-      <div className="container flex h-16 items-center justify-between">
+    <header className="fixed z-50 w-full bg-white/80 backdrop-blur-sm shadow-sm">
+      <div className="container flex h-16 items-center">
         <img src="/assets/logo.svg" alt="Логотип MyCompany" className="h-14 w-auto" />
 
         {/* десктоп‑меню */}
-        <nav className="hidden gap-8 sm:flex">
+        <nav className="hidden gap-8 sm:flex ml-[105rem]">
           {navItems.map(({ to, label }) => (
             <Link
               key={to}
