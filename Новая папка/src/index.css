@@ -1,0 +1,21 @@
+/* src/index.css
+   ────────────────────────────────────────────────────────── */
+
+/* Tailwind JIT directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------
+   Глобальные правки
+   ------------------------------------------------------ */
+html,
+body,
+#root {
+  height: 100%;          /* «прилипший» футер */
+  scroll-behavior: smooth;
+}
+
+ /* *{ 
+    outline: 1px solid purple;
+}  */
