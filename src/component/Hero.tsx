@@ -9,7 +9,7 @@ const Hero = () => (
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.6 }}
-        src="/assets/logo2.svg"
+        src="./assets/logo2.svg"
         alt="Строитель"
         className="w-72 sm:w-80 md:w-[1000px]"
       />
